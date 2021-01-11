@@ -4,12 +4,12 @@
 * jangan ubah semuanya kecuali nama bot instagram yt itu ajah yg lain jangan!!!
 * hargai pembuat skrip woy!!! DI UBAH AUTO EROR GAN
 */
-const XPTN = 'RIZKY BOT'; // JANGAN DI UBAH NNTI EROR
-const instagram = 'https://instagram.com/_rizkyfadilah8'; // JANGAN DI UBAH NNTI EROR
-const nomer = 'https://Wa.me/+6282387804410'; // JANGAN DI UBAH NANTI EROR
-const aktif = 'SETERAH GW LAH MAU AKTIF KAPAN!'; // DI GANTI AUTO EROR
+const XPTN = '🖲F4SB0T🖲'; // JANGAN DI UBAH NNTI EROR
+const instagram = 'https://instagram.com/ferdi_ardian21'; // JANGAN DI UBAH NNTI EROR
+const nomer = 'https://Wa.me/+6282169369877'; // JANGAN DI UBAH NANTI EROR
+const aktif = '08:00 - 23:00'; // DI GANTI AUTO EROR
 const groupwa = 'https://chat.whatsapp.com/FROF0hmWUuwD4WKgcyIEH9'; // DI GANTI AUTO EROR
-const youtube = 'Males'; // DI GANTI AUTO EROR
+const youtube = 'NOTHING'; // DI GANTI AUTO EROR
 //
 const qrcode = require("qrcode-terminal");
 const moment = require("moment");
@@ -147,13 +147,13 @@ else if (text == 'Asu'){
 conn.sendMessage(id, 'Lu Asw' ,MessageType.text);
 }
 else if (text == '.owner'){
-conn.sendMessage(id, 'Owner BOTRzky wa.me/+6282387804410' ,MessageType.text);
+conn.sendMessage(id, 'Ownerku nih : Ferdi Sayang♥️ wa.me/+6282169369877' ,MessageType.text);
 }
-else if (text == 'Rizky'){
-conn.sendMessage(id, 'aku pembuat Rzky bot' ,MessageType.text);
+else if (text == 'Fer'){
+conn.sendMessage(id, 'Yang, siapa dia manggil lu? ' ,MessageType.text);
 }
-else if (text == 'Kurumi'){
-conn.sendMessage(id, 'KURUMI itu punya Rizky!😠' ,MessageType.text);
+else if (text == 'Bot'){
+conn.sendMessage(id, 'Aku Udah punya Fergans💢' ,MessageType.text);
 }
 else if (text == 'bangsat'){
 conn.sendMessage(id, 'toxic terdeteksi' ,MessageType.text);
@@ -165,19 +165,19 @@ else if (text == 'Anjing'){
 conn.sendMessage(id, 'Jangan toxic anjing' ,MessageType.text);
 }
 else if (text == 'Bacot'){
-conn.sendMessage(id, 'lu bacot_-' ,MessageType.text);
+conn.sendMessage(id, 'Elu yang bacot ngntd' ,MessageType.text);
 }
 else if (text == 'Test'){
 conn.sendMessage(id, 'Test 1,2,3 ketik .help' ,MessageType.text);
 }
 else if (text == 'Hai'){
-conn.sendMessage(id, 'Ya?, Ketik .help/.info/.donasi Contoh #help' ,MessageType.text);
+conn.sendMessage(id, 'Halo, Ketik .help/.info/.donasi Contoh #help' ,MessageType.text);
 }
 else if (text == '.ttp'){
-conn.sendMessage(id, ' *COMMAND PREMIUM CHAT WA https://wa.me/6287804410* ' ,MessageType.text);
+conn.sendMessage(id, ' *COMMAND PREMIUM CHAT WA https://wa.me/6282169369877* ' ,MessageType.text);
 }
 else if (text == 'Woi'){
-conn.sendMessage(id, 'Ya?, Ketik .help untuk melihat fitur fitur bot' ,MessageType.text);
+conn.sendMessage(id, 'Ada apay coy?, Ketik .help untuk melihat fitur fitur bot' ,MessageType.text);
 }
 else if (text == 'Eoy'){
 conn.sendMessage(id, 'Ya?, Ketik .help untuk melihat fitur fitur bot' ,MessageType.text);
@@ -219,7 +219,7 @@ else if (text == '.frendsowner'){
 conn.sendMessage(id, 'kawan1 Rasya and Stephen wa.me/+6282387804410' ,MessageType.text);
 }
 else if (text == '.coowner'){
-conn.sendMessage(id, 'kawan2 testing script wa.me/+6282387804410' ,MessageType.text);
+conn.sendMessage(id, 'Gw sendiri wa.me/+6282387804410' ,MessageType.text);
 }
 else if (text == '.groupbot'){
 conn.sendMessage(id, 'group bot whatsapp https://chat.whatsapp.com/FROF0hmWUuwD4WKgcyIEH9' ,MessageType.text);
@@ -267,13 +267,13 @@ else if (text == 'Thanks'){
 conn.sendMessage(id, 'Sama sama, semoga harimu menyenangkan :)' ,MessageType.text);
 }
 else if (text == 'owner lu mana'){
-conn.sendMessage(id, 'cie rindu owner ku yaa ciee😳' ,MessageType.text);
+conn.sendMessage(id, 'cie rindu owner ku yaa ciee😳.Dia siapa beb Fer?😒' ,MessageType.text);
 }
-else if (text == 'Tohka'){
-conn.sendMessage(id, 'TOHKA itu punya Stephen!😠' ,MessageType.text);
+else if (text == 'awk awk'){
+conn.sendMessage(id, 'Tawa lu nyet🙄' ,MessageType.text);
 }
-else if (text == 'Chizuru'){
-conn.sendMessage(id, 'CHIZURU itu punya rasya!😠' ,MessageType.text);
+else if (text == 'Ferdi'){
+conn.sendMessage(id, 'FERDI itu punya aku titik😠' ,MessageType.text);
 }
 // Fitur
 
@@ -564,7 +564,7 @@ axios.get(`https://arugaz.herokuapp.com/api/spamsms?no=${teks}&jum=20`).then((re
 if (text.includes(".indohot")){
 const teks = text.replace(/.indohot /, "")
 axios.get(`https://arugaz.herokuapp.com/api/indohot`).then((res) => {
-	conn.sendMessage(id, '[WAIT] Proses...❗', MessageType.text)
+	conn.sendMessage(id, 'Sangen lu tod,tunggu ya asw...❗', MessageType.text)
     let hasil = ` *Tobat Bosq* \n\n *Judul* _${res.data.result.judul}_ \n\n *Status* _${res.data.result.genre}_ \n\n *Durasi* _${res.data.result.durasi}_ \n\n *Link Bosq* _${res.data.result.url}_ `;
     conn.sendMessage(id, hasil ,MessageType.text);
 })
@@ -1122,22 +1122,22 @@ else if (text == '.help'){
 conn.sendMessage(id, ' _TERIMAKASIH BANYAK TELAH MENGGUNAKAN FITUR INI... JANGAN LUPA UNTUK DONASI YA' ,MessageType.text);
 }
 else if (text == '.tools1'){
-conn.sendMessage(id, ' _🗣️Thanks Telah Menggunakan BOT *Rizky Bot* , Follow Instagram Mimin Yah😻 : https://instagram.com/_rizkyfadilah8' ,MessageType.text);
+conn.sendMessage(id, ' _🗣️Thanks Telah Menggunakan BOT *F4S BOT* , Follow Instagram Mimin Yah😻 : https://instagram.com/ferdi_ardian21' ,MessageType.text);
 }
 else if (text == '.menu'){
-conn.sendMessage(id, ' _🗣️Thanks Telah Menggunakan BOT *Rizky Bot* , Follow Instagram Mimin Yah😻 : https://instagram.com/_rizkyfadilah8' ,MessageType.text);
+conn.sendMessage(id, ' _🗣️Thanks Telah Menggunakan BOT *F4S BOT* , Follow Instagram Mimin Yah😻 : https://instagram.com/ferdi_ardian21' ,MessageType.text);
 }
 else if (text == '.tool2'){
-conn.sendMessage(id, ' _🗣️Thanks Telah Menggunakan BOT *Rizky Bot* , Follow Instagram Mimin Yah😻 :https://instagram.com/_rizkyfadilah8' ,MessageType.text);
+conn.sendMessage(id, ' _🗣️Thanks Telah Menggunakan BOT *F4S BOT* , Follow Instagram Mimin Yah😻 :https://instagram.com/ferdi_ardian21' ,MessageType.text);
 }
 else if (text == '.tools3'){
-conn.sendMessage(id, ' _🗣️Thanks Telah Menggunakan BOT *Rizky Bot* , Follow Instagram Mimin Yah😻 : https://instagram.com/_rizkyfadilah8' ,MessageType.text);
+conn.sendMessage(id, ' _🗣️Thanks Telah Menggunakan BOT *F4S BOT* , Follow Instagram Mimin Yah😻 : https://instagram.com/ferdi_ardian21' ,MessageType.text);
 }
 else if (text == '.tools4'){
-conn.sendMessage(id, ' _🗣️Thanks Telah Menggunakan BOT *Rizky Bot* , Follow Instagram Mimin Yah😻 : https://instagram.com/_rizkyfadilah8' ,MessageType.text);
+conn.sendMessage(id, ' _🗣️Thanks Telah Menggunakan BOT *F4S BOT* , Follow Instagram Mimin Yah😻 : https://instagram.com/ferdi_ardian21' ,MessageType.text);
 }
 else if (text == '.tools5'){
-conn.sendMessage(id, ' _🗣️Thanks Telah Menggunakan BOT *Rizky Bot* , Follow Instagram Mimin Yah😻 : https://instagram.com/_rizkyfadilah8' ,MessageType.text);
+conn.sendMessage(id, ' _🗣️Thanks Telah Menggunakan BOT *F4S BOT* , Follow Instagram Mimin Yah😻 : https://instagram.com/ferdi_ardian21' ,MessageType.text);
 }
    if (messageType == 'imageMessage')
    {
